@@ -236,12 +236,12 @@ section {
 
 .bloco_texto:hover hr {
     background-image: linear-gradient(to right, var(--cor3), var(--cor1));
-    width: 100%;
+    width: 90%;
 }
 
 .bloco_texto hr {
     height: 4px;
-    width: 0;
+    width: 20%;
     border: none;
     background-image: linear-gradient(to right, var(--cor3), var(--cor1));
     transition: .5s;
