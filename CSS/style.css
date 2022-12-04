@@ -307,6 +307,26 @@ section {
         padding: 20px;
         display: inline-block;
     }
+
+    .container_mkt {
+        display: inline-block;
+    }
+
+    .container_mkt .block1 {
+        width: 100%;
+    }
+
+    .container_mkt .block2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_mkt .block2 h1 {
+        display: inline-block;
+        padding-top: 17px;
+        font-size: 22px;
+        max-width: 400px;
+    }
 }
 
 footer {
