@@ -55,12 +55,14 @@ const produtos = [
     }
 ]
 
+let id = 0
 
 produtosProGaming = () => {
     let saidaInput = document.querySelector('div.container_produtos')
         produtos.map((value)=>{
+            id += 1
             saidaInput.innerHTML += `
-                <div class="produtos">
+                <div class="produtos" id="${id}">
                     <div class="img_produto">
                         <img src="${value.img}" alt="Img">
                     </div>
@@ -73,10 +75,15 @@ produtosProGaming = () => {
                         <img src="images/img-5-estrelas.png" alt="Img Avaliação">
                     </div>
                     <div class="bloco_button">
-                        <button class="btn_adicionar">Adicionar</button>
+                        <button class="btn_adicionar" onclick="adicionarProduto(id)">Adicionar</button>
                     </div>
                 </div>`
         })
+        
 }
 
 produtosProGaming()
+
+function adicionarProduto (id1) {
+    
+}
