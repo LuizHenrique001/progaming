@@ -146,6 +146,7 @@ main {
     max-width: 600px;
     line-height: 40px;
     font-size: 28px;
+    padding-right: 4%;
 }
 
 .container_produtos {
@@ -326,6 +327,7 @@ section {
         padding-top: 17px;
         font-size: 22px;
         max-width: 400px;
+        padding-right: 0;
     }
 }
 
